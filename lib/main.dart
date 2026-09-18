@@ -63,14 +63,14 @@ class _CricketScreenState extends State<CricketScreen> {
         backgroundColor: Colors.blue[800],
         centerTitle: true,
       ),
-      // Whiteboard එකේ වම් පස තිබෙන විකල්ප (වඩාත් හොඳ) ව්‍යුහය (Row of Columns)
+      
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          // Row( Col(I1, T1, v1), Col(I2, T2, v2) )
+          
           Row(
             children: [
-              // පළමු තීරුව (Column 1)
+              
               Expanded(
                 child: Column(
                   children: [
@@ -93,7 +93,7 @@ class _CricketScreenState extends State<CricketScreen> {
                 ),
               ),
               
-              // දෙවන තීරුව (Column 2)
+              
               Expanded(
                 child: Column(
                   children: [
